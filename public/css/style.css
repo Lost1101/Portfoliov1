@@ -616,10 +616,6 @@ video {
   height: 3.5rem;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
 .h-auto {
   height: auto;
 }
@@ -630,10 +626,6 @@ video {
 
 .w-14 {
   width: 3.5rem;
-}
-
-.w-96 {
-  width: 24rem;
 }
 
 .w-fit {
@@ -655,6 +647,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-96 {
+  width: 24rem;
 }
 
 .w-44 {
@@ -794,9 +790,9 @@ video {
   padding: 0px;
 }
 
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .py-40 {
@@ -814,19 +810,19 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .pt-20 {
@@ -1012,17 +1008,8 @@ video {
     display: block;
   }
 
-  .tablet\:w-56 {
-    width: 14rem;
-  }
-
   .tablet\:w-52 {
     width: 13rem;
-  }
-
-  .tablet\:w-fit {
-    width: -moz-fit-content;
-    width: fit-content;
   }
 
   .tablet\:w-max {
@@ -1030,19 +1017,8 @@ video {
     width: max-content;
   }
 
-  .tablet\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .tablet\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-
-  .tablet\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
+  .tablet\:w-full {
+    width: 100%;
   }
 
   .tablet\:text-center {
@@ -1059,9 +1035,8 @@ video {
     width: 24rem;
   }
 
-  .laptop\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
+  .laptop\:w-1\/2 {
+    width: 50%;
   }
 
   .laptop\:text-justify {
@@ -1078,9 +1053,8 @@ video {
     width: 24rem;
   }
 
-  .desktop\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
+  .desktop\:w-1\/2 {
+    width: 50%;
   }
 
   .desktop\:text-justify {
