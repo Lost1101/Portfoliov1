@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+  .background-me {
+    background-color : #5D5B6A;
+  }
+
+  .background-me-2{
+    background-color : #4a4955;
+  }
+
+  .border-me{
+    border-color: #5D5B6A;
+  }
+
+  .border-me-2{
+    border-color: #FFD5CD;
+  }
+
+  .text-color-me{
+    color : #FFD5CD;
+  }
+
+  .text-color-me-2{
+    color : #5D5B6A;
+  }
+
+
+
+  .font-sans{
+    font-family: 'PT Sans';
+  }
+
+  @keyframes taadaa { 
+        0% {
+            opacity: 0;
+        }
+
+        50%{
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+        }
+
+    .anishow-hide{
+        animation: taadaa 1s infinite;
+    }
+
+}

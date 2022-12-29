@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost, Kam-here!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/faf88445ba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <style>
+      html{
+          cursor: url(/src/img/cursor.png), auto;
+        }
+    </style>
+</head>
+<body class="font-sans">
+  <div>
+    <a href="#Home">
+      <button id="myBtn" class="hidden background-me-2 text-white text-2xl fixed bottom-5 right-5 rounded-full w-14 h-14 drop-shadow-lg"><i class="animate-bounce fa-solid fa-arrow-up"></i></button>
+    </a>
+  </div>
+
+    <div>
+      <div>
+        <nav class="p-5 items-center justify-center background-me fixed top-0 inset-x-0 z-100 drop-shadow" aria-label="Global" style="z-index: 101;">
+          <div class="flex gap-x-12 text-center max-w-fit mx-auto">
+            <a href="#About" class="text-lg font-semibold text-white text-center hover:text-color-me duration-300 hover:border-b-2 border-white">About</a>
+  
+            <a href="#Skills" class="text-lg font-semibold text-white text-center hover:text-color-me duration-300 hover:border-b-2 border-white">Skills</a>
+  
+            <a href="#Project" class="text-lg font-semibold text-white text-center hover:text-color-me duration-300 hover:border-b-2 border-white">Projects</a>
+  
+            <a href="#Contact" class="text-lg font-semibold text-white text-center hover:text-color-me duration-300 hover:border-b-2 border-white">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+
+      <div id="Home" class="background-me px-20 py-40 justify-between tablet:block laptop:flex desktop:flex">
+        <div>
+            <img class="w-96 h-96" src="/src/img/Product.png" alt="">
+        </div>
+        <div class="text-white max-w-3xl">
+           <h1 class="text-7xl font-bold mt-2">Hi!</h1>
+           <h1 class="text-5xl font-bold mt-2">My name is</h1>
+           <h2 class="text-7xl font-bold text-color-me mt-2">Kamilah Insani. <span class="anishow-hide text-7xl font-bold text-white mt-2 inline">|</span></h2>
+           <h3 class="text-xl mt-2 text-justify">I'm a Fullstack Developer and Artist!. I make a web combined with my various ideas and I mix them with my art!. Sometimes, I also make unique web just for fun! I like it when people are happy to use the web that I made with all my heart &#10084;.</h3>
+           
+           <a href="#About">
+            <button class="text-xl background-me2 px-8 py-2 border-2 font-bold border-white text-white mt-10 rounded-md hover:text-stone-900 hover:bg-white duration-300">View <i class="ml-3 fa-solid fa-fish"></i></button>
+           </a>
+        </div>
+      </div>
+
+    <div id="About" class="px-20 py-20">
+        <h1 class="text-stone-900 text-5xl font-bold text-center mb-5 border-b-2 border-stone-900 w-fit mx-auto">About</h1>
+        <div class="flex mb-5 mx-auto justify-center">
+          <h2 class="text-color-me-2 text-4xl font-bold m-5 text-left w-52">Nice to meet you!</h2>
+          <p class="w-1/2 border-l-4 border-me px-8 text-justify">I'd like to learn various kinds of knowledge, such as science, technology, or art. I enjoy to solve a problem!. In my spare time, I play games or look for jokes to share with my friends. I also like to do my hobby, yeah that's drawing, some of the results can be seen below. <i class="my-5 block fa-solid fa-arrow-down animate-bounce"></i></p>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide relative mx-auto" data-bs-ride="carousel">
+            <div class="carousel-indicators absolute bottom-0 left-0 right-0 flex justify-center p-0">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner relative w-4/6 bg-stone-900 overflow-hidden mx-auto">
+              <div class="carousel-item active float-left w-full">
+                <img
+                  src="/src/img/1.png"
+                  class="block w-96 h-auto mx-auto"
+                  alt="Wild Landscape"
+                />
+              </div>
+              <div class="carousel-item float-left w-full">
+                <img
+                  src="/src/img/2.png"
+                  class="block w-96 h-auto mx-auto"
+                  alt="Camera"
+                />
+              </div>
+              <div class="carousel-item float-left w-full">
+                <img
+                  src="/src/img/3.png"
+                  class="block w-96 h-auto mx-auto"
+                  alt="Exotic Fruits"
+                />
+              </div>
+            
+            <button
+              class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    </div>
+
+    <div id="Skills" class="background-me px-20 py-20">
+      <h1 class="text-white text-5xl font-bold text-center mb-5 border-b-2 border-white w-fit mx-auto">Skills</h1>
+      <div class="flex mb-5 mx-auto justify-center">
+        <p class="text-center m-5 text-white text-lg">Here are some skills that I have and are familiar to me &#128563;</p>
+        <h2 class="text-color-me border-l-4 border-me-2 text-4xl px-8 font-bold text-left w-52">Do you know?</h2>
+      </div>
+      <div class="justify-center flex flex-wrap p-5 mx-auto">
+        <div class="block w-44 h-auto m-5 background-me-2 p-5 drop-shadow-lg rounded-md hover:scale-125 duration-500">
+          <img class="w-32 h-32 mx-auto mb-5" src="/src/img/html.png" alt="">
+          <p class="text-center font-bold text-white">HTML</p>
+        </div>
+        <div class="block w-44 h-auto m-5 background-me-2 p-5 drop-shadow-lg rounded-md hover:scale-125 duration-500">
+          <img class=" w-32 h-32 mx-auto mb-5" src="/src/img/css.png" alt="">
+          <p class="text-center font-bold text-white">CSS</p>
+        </div>
+        <div class="block w-44 h-auto m-5 background-me-2 p-5 drop-shadow-lg rounded-md hover:scale-125 duration-500">
+          <img class=" w-32 h-32 mx-auto mb-5" src="/src/img/javascript.png" alt="">
+          <p class="text-center font-bold text-white">JavaScript</p>
+        </div>
+        <div class="block w-44 h-auto m-5 background-me-2 p-5 drop-shadow-lg rounded-md hover:scale-125 duration-500">
+          <img class=" w-32 h-32 mx-auto mb-5" src="/src/img/php.png" alt="">
+          <p class="text-center font-bold text-white">PHP</p>
+        </div>
+        <div class="block w-44 h-auto m-5 background-me-2 p-5 drop-shadow-lg rounded-md hover:scale-125 duration-500">
+          <img class=" w-32 h-32 mx-auto mb-5" src="/src/img/mysql.png" alt="">
+          <p class="text-center font-bold text-white">MySQL</p>
+        </div>
+        <div class="block w-44 h-auto m-5 background-me-2 p-5 drop-shadow-lg rounded-md hover:scale-125 duration-500">
+          <img class=" w-32 h-32 mx-auto mb-5" src="/src/img/nodejs.png" alt="">
+          <p class="text-center font-bold text-white">Node JS</p>
+        </div>
+        <div class="block w-44 h-auto m-5 background-me-2 p-5 drop-shadow-lg rounded-md hover:scale-125 duration-500">
+          <img class=" w-32 h-32 mx-auto mb-5" src="/src/img/tailwind.png" alt="">
+          <p class="text-center font-bold text-white">Tailwind CSS</p>
+        </div>
+        <div class="block w-44 h-auto m-5 background-me-2 p-5 drop-shadow-lg rounded-md hover:scale-125 duration-500">
+          <img class=" w-32 h-32 mx-auto mb-5" src="/src/img/bootstrap1.png" alt="">
+          <p class="text-center font-bold text-white">Bootstrap</p>
+        </div>
+        <div class="block w-44 h-auto m-5 background-me-2 p-5 drop-shadow-lg rounded-md hover:scale-125 duration-500">
+          <img class="w-32 h-32 mx-auto mb-5" src="/src/img/github1.png" alt="">
+          <p class="text-center font-bold text-white">Github</p>
+        </div>
+        <div class="block w-44 h-auto m-5 background-me-2 p-5 drop-shadow-lg rounded-md hover:scale-125 duration-500">
+          <img class="w-32 h-32 mx-auto mb-5" src="/src/img/ibispaint.png" alt="">
+          <p class="text-center font-bold text-white">Ibis Paint X</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="Project" class="px-20 py-20">
+      <h1 class="text-stone-900 text-5xl font-bold text-center mb-5 border-b-2 border-stone-900 w-fit mx-auto">Projects</h1>
+
+      <div class="flex flex-wrap justify-center">
+        <div class="m-5 bg-white rounded-lg w-72 h-auto border-x-2 border-y-zinc-800" style="box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);">
+          <img class="w-72 h-auto" src="/src/img/voteit.png" alt="">
+          <div class="m-5">
+            <a class="text-4xl font-bold text-color-me-2 hover:text-stone-900 duration-300" href="https://github.com/Lost1101/E-voting-v.0.2">Vote It! Project</a>
+            <p class="text-justify mt-5">An e-voting application, where users can add votes in any case.</p>
+          </div>
+        </div>
+
+        <div class="m-5 bg-white rounded-lg w-72 h-auto border-x-2 border-y-zinc-800" style="box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);">
+          <img class="w-72 h-auto" src="/src/img/gabut.png" alt="">
+          <div class="m-5">
+            <a class="text-4xl font-bold text-color-me-2 hover:text-stone-900 duration-300" href="https://proyek-gabut1.vercel.app/">IDK 1</a>
+            <p class="text-justify mt-5">Click... click... click... and something happens xD.</p>
+          </div>
+        </div>
+
+        <div class="m-5 bg-white rounded-lg w-72 h-auto border-x-2 border-y-zinc-800" style="box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);">
+          <img class="w-72 h-auto" src="/src/img/isekai1.png" alt="">
+          <div class="m-5">
+            <a class="text-4xl font-bold text-color-me-2 hover:text-stone-900 duration-300" href="https://github.com/Lost1101/Tugas-PBO.git">Isekai Resto</a>
+            <p class="text-justify mt-5">BUMP! Oh no! You just get hit by Truck-kun!, Welcome to Isekai! (Restaurant).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Contact" class="background-me px-20 pt-20 pb-5">
+      <h1 class="text-white text-5xl font-bold text-center mb-5 border-b-2 border-white w-fit mx-auto">Contact</h1>
+      <p class="text-white text-center">You can contact me on :</p>
+      <div class="flex flex-wrap text-white text-4xl justify-center">
+        <a href="https://www.instagram.com/lost_0153/"><i class="fa-brands fa-instagram m-5 hover:text-color-me duration-300"></i></a>
+        <a href="https://web.facebook.com/kamilah.insani/"><i class="fa-brands fa-facebook-f m-5 hover:text-color-me duration-300"></i></a>
+        <a href="https://twitter.com/lostK05"><i class="fa-brands fa-github m-5 hover:text-color-me duration-300"></i></a>
+        <a href="https://github.com/Lost1101"><i class="fa-brands fa-twitter m-5 hover:text-color-me duration-300"></i></a>
+      </div>
+
+      <div class="justify-center">
+        <img class="w-32 h-32 mx-auto mt-10 mb-5" src="/src/img/icon.png" alt="">
+        <p class="text-center text-white"><i class="fa-regular fa-copyright"></i>Lost/Kamilah 2022</p>
+      </div>
+    </div>
+
+    <script>
+      let mybutton = document.getElementById("myBtn");
+      
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+</body>
+</html>
+
