@@ -665,10 +665,6 @@ video {
   width: 13rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-screen {
   width: 100vw;
 }
@@ -679,6 +675,10 @@ video {
 
 .w-32 {
   width: 8rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .w-72 {
